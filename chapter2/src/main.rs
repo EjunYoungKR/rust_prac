@@ -33,6 +33,12 @@ fn main() {
 
 	println!("{}",x);
 
+	let tup2:(f64,i8,u16) = (-4.1, -2, 244);
+	let (x,y,z) = tup2;
+
+	println!("The new value of x is {}",x);
+	println!("The new value of y is {}",y);
+	println!("The new value of z is {}",z);
 
 	let arr1:[i16;2] = [500, 455];
 
