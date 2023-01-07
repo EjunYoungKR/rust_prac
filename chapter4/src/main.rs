@@ -56,4 +56,11 @@ fn main() {
 	for element in a.iter() {
 		println!("The value is {}", element);
 	}
+
+	println!("---------------");
+	
+	for new in (1..4).rev() {
+		println!("{}", new);
+	}
+
 }
